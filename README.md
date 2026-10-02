@@ -20,6 +20,10 @@
 
 `contracts/context.schema.json` 描述资料结构，`fixtures/context.json` 提供不含真实身份信息的示例，`src/ai_governance_context.py` 负责读取和校验这些资料。
 
+## 课程治理服务
+
+`src/governance/` 提供课程治理服务：课程版本、讲师与机构资质、教材审核、隐私授权、活动场次、学习证明、例外审批、补救任务与重启恢复。规则说明见 `docs/governance-service.md`，行为测试见 `tests/test_governance_service.py`。
+
 ## 开发命令
 
 运行测试：
